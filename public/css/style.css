@@ -1,0 +1,492 @@
+@charset "UTF-8";
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.background {
+  background-image: url("../../images/back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.round-blue i {
+  font-size: 36px;
+  color: white;
+  float: right;
+  padding-top: 1rem;
+}
+
+.intro-mestre {
+  z-index: 9999;
+}
+
+.intro-text .title-main {
+  position: relative;
+}
+
+.intro-text .title-main::after {
+  position: absolute;
+  content: '';
+  background: #8BD3F0;
+  width: 16rem;
+  opacity: 0.5;
+  height: 1rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 9999;
+}
+
+@media screen and (max-width: 425px) {
+  .intro-text .title-main::after {
+    width: 13rem;
+  }
+}
+
+h2 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #033B52;
+}
+
+.sub-title {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  color: #626472;
+}
+
+.blue {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 0;
+  color: #67C4E9;
+}
+
+.pink {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 0;
+  color: #DC88A0;
+}
+
+.yellow {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 0;
+  color: #DFAD54;
+}
+
+.about-content {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.about-content img {
+  width: 5rem;
+}
+
+.about-content p {
+  margin-bottom: 0;
+}
+
+.about-content .text-content p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #626472;
+}
+
+.game {
+  background-image: url("../../images/back-game.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 22rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .game {
+    height: 35rem;
+  }
+}
+
+.game .row {
+  height: 22rem;
+}
+
+@media screen and (max-width: 425px) {
+  .game .item-game {
+    margin-top: 2rem;
+  }
+}
+
+.game .item-game h4 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.game .item-game button {
+  background: #FDC563;
+  border-radius: 50px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  border: 0;
+  width: 15rem;
+  height: 3.5rem;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  float: right;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 425px) {
+  .game .item-game button {
+    float: initial;
+  }
+}
+
+.game .item-game button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.game .item-game .ponto {
+  border: 2px dashed white;
+  width: 14rem;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+}
+
+.intro-text2 .title-main {
+  position: relative;
+}
+
+.intro-text2 .title-main::after {
+  position: absolute;
+  content: '';
+  background: #FFD17F;
+  width: 12rem;
+  opacity: 0.5;
+  height: 1.2rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 9999;
+}
+
+.text-normal {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #626472;
+}
+
+form {
+  margin-top: 5rem;
+}
+
+label {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #A4A1A1;
+}
+
+.btn-sub, .btn-sub2 {
+  background: #45B3DF;
+  border-radius: 50px;
+  border: 0;
+  width: 100%;
+  color: white;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 16px;
+  height: 2.5rem;
+}
+
+.btn-sub .ponto, .btn-sub2 .ponto {
+  border: 2px dashed white;
+  width: 98%;
+  height: 2rem;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.pic1 img {
+  position: absolute;
+  right: 0;
+  top: -10rem;
+  width: 15rem;
+}
+
+@media screen and (max-width: 425px) {
+  .pic1 img {
+    display: none;
+  }
+}
+
+.pic2 img {
+  position: absolute;
+  left: 0;
+  top: -8rem;
+  width: 8rem;
+}
+
+.pic3 img {
+  position: absolute;
+  right: 0;
+  top: 32rem;
+  width: 5rem;
+}
+
+.pic4 img {
+  position: absolute;
+  right: 30rem;
+  top: 37rem;
+  width: 5rem;
+}
+
+.pic5 img {
+  position: absolute;
+  left: 0;
+  top: 57rem;
+  width: 7rem;
+}
+
+select,
+textarea {
+  border: 0 !important;
+  background: white;
+  -webkit-box-shadow: 0px 13px 80px rgba(0, 0, 0, 0.03), 0px 4.74521px 29.2013px rgba(0, 0, 0, 0.0206994), 0px 2.30371px 14.1767px rgba(0, 0, 0, 0.0166887), 0px 1.12932px 6.94968px rgba(0, 0, 0, 0.0133113), 0px 0.44654px 2.74791px rgba(0, 0, 0, 0.00930055) !important;
+          box-shadow: 0px 13px 80px rgba(0, 0, 0, 0.03), 0px 4.74521px 29.2013px rgba(0, 0, 0, 0.0206994), 0px 2.30371px 14.1767px rgba(0, 0, 0, 0.0166887), 0px 1.12932px 6.94968px rgba(0, 0, 0, 0.0133113), 0px 0.44654px 2.74791px rgba(0, 0, 0, 0.00930055) !important;
+}
+
+.form-professor {
+  padding: 25px;
+  background: #f4f7f8;
+}
+
+.form-professor button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #67C4E9;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: bolder;
+  border: 1px solid #67C4E9;
+  border-width: 1px 1px 3px;
+  -webkit-box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+          box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 10px;
+}
+
+.game-intro {
+  background-image: url("../../images/game.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 35rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .game-intro {
+    height: 50rem;
+  }
+}
+
+.game-intro .intro-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-weight: bolder;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30rem;
+}
+
+#formGame label {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 27px;
+  color: #033B52;
+}
+
+#formGame input[type="checkbox"] {
+  display: none;
+}
+
+#formGame .questionsCheck label {
+  border: 2px solid #fff;
+  padding: 10px;
+  display: block;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#formGame .questionsCheck label:before {
+  background-color: white;
+  color: white;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  border: 1px solid #67C4E9;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 28px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#formGame .questionsCheck label img {
+  height: 200px;
+  width: 200px;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+#formGame .questionsCheck :checked + label {
+  border-color: #67C4E9;
+}
+
+#formGame .questionsCheck :checked + label:before {
+  content: "✓";
+  background-color: #67C4E9;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#formGame .questionsCheck :checked + label img {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  z-index: -1;
+}
+
+#formGame .questionsCheck :checked + label {
+  border-color: #ddd;
+}
+
+#formGame .questionsCheck :checked + label:before {
+  content: "✓";
+  background-color: #67C4E9;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#formGame .questionsCheck :checked + label img {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  /* box-shadow: 0 0 5px #333; */
+  z-index: -1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+svg,
+img {
+  display: block;
+  width: 100%;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title-main {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 33px;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
