@@ -96,13 +96,13 @@
 
                         <div class="d-flex align-items-center questionsCheck flex-wrap">
                             <div class="check">
-                                <input type="checkbox" id="myCheckbox12" name="alternative12" value="Errou" />
+                                <input type="checkbox" id="myCheckbox12" name="alternative12" value="Acertou" />
                                 <label for="myCheckbox6" class="form-label">
                                     <img src="{{ asset('images/question2-img1.png') }}" alt=""></label>
                             </div>
 
                             <div class="check">
-                                <input type="checkbox" id="myCheckbox13" value="Acertou" name="alternative2"/>
+                                <input type="checkbox" id="myCheckbox13" value="Errou" name="alternative2"/>
                                 <label for="myCheckbox13" class="form-label"><img
                                         src="{{ asset('images/question2-img2.png') }}" alt=""></label>
                             </div>
@@ -131,13 +131,13 @@
 
                         <div class="d-flex align-items-center questionsCheck flex-wrap">
                             <div class="check">
-                                <input type="checkbox" id="myCheckbox6" name="alternative3" value="Errou" />
+                                <input type="checkbox" id="myCheckbox6" name="alternative3" value="Acertou" />
                                 <label for="myCheckbox6" class="form-label">
                                     <img src="{{ asset('images/question3-img1.png') }}" alt=""></label>
                             </div>
 
                             <div class="check">
-                                <input type="checkbox" id="myCheckbox7" value="Acertou" name="alternative3"/>
+                                <input type="checkbox" id="myCheckbox7" value="Errou" name="alternative3"/>
                                 <label for="myCheckbox7" class="form-label"><img
                                         src="{{ asset('images/question3-img2.png') }}" alt=""></label>
                             </div>
@@ -166,13 +166,13 @@
 
                         <div class="d-flex align-items-center questionsCheck flex-wrap">
                             <div class="check">
-                                <input type="checkbox" id="myCheckbox16" name="alternative4" value="Errou" />
+                                <input type="checkbox" id="myCheckbox16" name="alternative4" value="Acertou" />
                                 <label for="myCheckbox16" class="form-label">
                                     <img src="{{ asset('images/question4-img1.png') }}" alt=""></label>
                             </div>
 
                             <div class="check">
-                                <input type="checkbox" id="myCheckbox17" value="Acertou" name="alternative4"/>
+                                <input type="checkbox" id="myCheckbox17" value="Errou" name="alternative4"/>
                                 <label for="myCheckbox17" class="form-label"><img
                                         src="{{ asset('images/question4-img2.png') }}" alt=""></label>
                             </div>
@@ -207,12 +207,12 @@
                             </div>
 
                             <div class="check">
-                                <input type="checkbox" id="myCheckbox22" value="Acertou" name="alternative5"/>
+                                <input type="checkbox" id="myCheckbox22" value="Errou" name="alternative5"/>
                                 <label for="myCheckbox22" class="form-label"><img
                                         src="{{ asset('images/question5-img2.png') }}" alt=""></label>
                             </div>
                             <div class="check">
-                                <input type="checkbox" id="myCheckbox23" value="Errou" name="alternative5"/>
+                                <input type="checkbox" id="myCheckbox23" value="Acertou" name="alternative5"/>
                                 <label for="myCheckbox23" class="form-label"><img
                                         src="{{ asset('images/question5-img3.png') }}" alt=""></label>
                             </div>
@@ -242,7 +242,7 @@
                             </div>
 
                             <div class="check">
-                                <input type="checkbox" id="myCheckbox27" value="Acertou" name="alternative6"/>
+                                <input type="checkbox" id="myCheckbox27" value="Errou" name="alternative6"/>
                                 <label for="myCheckbox27" class="form-label"><img
                                         src="{{ asset('images/question6-img2.jpg') }}" alt=""></label>
                             </div>
@@ -252,7 +252,7 @@
                                         src="{{ asset('images/question6-img3.jpg') }}" alt=""></label>
                             </div>
                             <div class="check">
-                                <input type="checkbox" id="myCheckbox29" value="Errou" name="alternative6"/>
+                                <input type="checkbox" id="myCheckbox29" value="Acertou" name="alternative6"/>
                                 <label for="myCheckbox29" class="form-label"><img
                                         src="{{ asset('images/question6-img4.png') }}" alt=""></label>
                             </div>
