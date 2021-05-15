@@ -4,7 +4,7 @@
         <table width="600" align="center" style="background:#fff; text-align:center; ">
             <thead>
                 <tr>
-                    <td colspan="2"><img src="http://chinelosaconchego.com.br/img/logo.png" alt="Logo" width="40%" ></td>
+                    <td colspan="2" style="background:darkblue;"><img src="https://www.unifoa.edu.br/Images/new-logo.png" alt="Logo" width="40%" ></td>
                 </tr>
             </thead>
             <tbody>
@@ -17,6 +17,12 @@
                     </td>
                 </tr>
 
+                <tr>
+                    <td><b>Aluno</b></td>
+                    <td>
+                        {{$aluno}}<br><br>
+                    </td>
+                </tr>
                 <tr>
                     <td><b>1. Assinale a imagem que melhor<br> representa o que é
                     consumo, pra você:</b></td>
@@ -76,7 +82,7 @@
                     <td height="25" colspan="2"></td>
                 </tr>
             </tbody>
-          
+
         </table>
     </font>
 </body>

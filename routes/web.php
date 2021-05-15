@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\GameController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfessorController;
@@ -22,4 +23,6 @@ Route::get('/game', [GameController::class,'index']);
 Route::post('/game', [GameController::class,'store']);
 Route::post('/ajax/request', [MainController::class,'store'])->name('ajax.request');
 Route::post('/ajax/professor', [ProfessorController::class,'store'])->name('ajax.professor');
+
+Route::get('/admin', [AdminController::class,'index']);
 

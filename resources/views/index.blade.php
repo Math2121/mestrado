@@ -7,7 +7,8 @@
 
     <title>Mestrado | Projeto desenvolvido UniFOA</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -25,8 +26,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12  round-blue ">
-<a href="/professor" target="_blank" rel="noopener noreferrer">
-                    <i class="las la-user-tie" data-bs-toggle="tooltip" data-bs-placement="top" title="Cadastre-se professor" ></i>
+                    <a href="/professor" target="_blank" rel="noopener noreferrer">
+                        <i class="las la-user-tie" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Cadastre-se professor"></i>
                     </a>
                 </div>
             </div>
@@ -174,11 +176,13 @@
                         porta.</h4>
                 </div>
                 <div class="col-md-6 item-game ">
+                    <a href="/game" target="_blank" rel="noopener noreferrer">
                     <button>
                         <span class="ponto">
                             JOGUE
                         </span>
                     </button>
+                </a>
                 </div>
 
             </div>
@@ -204,7 +208,8 @@
                     @csrf
                     <div class="form-group mb-4">
                         <label for="formation">Qual sua formação acadêmica?</label>
-                        <select class="form-control form-select @error('question1') is-invalid @enderror" id="question1" name="question1" required>
+                        <select class="form-control form-select @error('question1') is-invalid @enderror" id="question1"
+                            name="question1" required>
                             <option></option>
                             <option>Formação de Professores</option>
                             <option>Graduação</option>
@@ -217,7 +222,8 @@
 
                     <div class="form-group mb-4">
                         <label for="formation">Há quanto tempo você concluiu seu curso?</label>
-                        <select class="form-control form-select @error('question2') is-invalid @enderror" id="question2" name="question2" required>
+                        <select class="form-control form-select @error('question2') is-invalid @enderror" id="question2"
+                            name="question2" required>
                             <option></option>
                             <option>Até 1 ano</option>
                             <option>De 1 a 5 anos</option>
@@ -231,7 +237,8 @@
 
                     <div class="form-group mb-4">
                         <label for="formation">Qual a sua área de formação?</label>
-                        <select class="form-control form-select @error('question3') is-invalid @enderror" id="question3" name="question3" required>
+                        <select class="form-control form-select @error('question3') is-invalid @enderror" id="question3"
+                            name="question3" required>
                             <option></option>
                             <option>Pedagogia</option>
                             <option>Licenciatura em História</option>
@@ -247,7 +254,8 @@
                     <div class="form-group mb-4">
                         <label for="formation">
                             Há quanto tempo atua como docente nas series iniciais do ensino fundamental?</label>
-                        <select class="form-control form-select @error('question4') is-invalid @enderror" id="question4" name="question4" required>
+                        <select class="form-control form-select @error('question4') is-invalid @enderror" id="question4"
+                            name="question4" required>
                             <option></option>
                             <option></option>
                             <option>Até 1 ano</option>
@@ -264,7 +272,8 @@
                         <label for="formation">
 
                             Qual o ano de escolaridade que você atua?</label>
-                        <select class="form-control form-select @error('question5') is-invalid @enderror" id="question5" name="question5" required>
+                        <select class="form-control form-select @error('question5') is-invalid @enderror" id="question5"
+                            name="question5" required>
                             <option></option>
                             <option></option>
                             <option>1º ano do E.F.</option>
@@ -281,7 +290,8 @@
                         <label for="formation">
 
                             As informações do site atendem as expectativas?</label>
-                        <select class="form-control form-select @error('question6') is-invalid @enderror" id="question6" name="question6" required>
+                        <select class="form-control form-select @error('question6') is-invalid @enderror" id="question6"
+                            name="question6" required>
                             <option></option>
                             <option></option>
                             <option>Abaixo do esperado</option>
@@ -297,7 +307,8 @@
                         <label for="formation">
 
                             O conteúdo do site é de fácil entendimento?</label>
-                        <select class="form-control form-select @error('question7') is-invalid @enderror" id="question7" name="question7" required>
+                        <select class="form-control form-select @error('question7') is-invalid @enderror" id="question7"
+                            name="question7" required>
                             <option></option>
                             <option></option>
                             <option>Abaixo do esperado</option>
@@ -314,7 +325,8 @@
                         <label for="formation">
 
                             Como foi a participação dos estudantes durante a atividade no Kahoot?</label>
-                        <select class="form-control form-select @error('question8') is-invalid @enderror" id="question8" name="question8" required>
+                        <select class="form-control form-select @error('question8') is-invalid @enderror" id="question8"
+                            name="question8" required>
                             <option></option>
                             <option></option>
                             <option>Abaixo do esperado</option>
@@ -330,7 +342,8 @@
                         <label for="formation">
 
                             Como foi a participação dos estudantes durante a roda de conversas?</label>
-                        <select class="form-control form-select @error('question9') is-invalid @enderror" id="question9" name="question9" required>
+                        <select class="form-control form-select @error('question9') is-invalid @enderror" id="question9"
+                            name="question9" required>
                             <option></option>
                             <option></option>
                             <option>Abaixo do esperado</option>
@@ -346,7 +359,8 @@
                         <label for="formation">
 
                             A utilização do site proporcionou os resultados esperados?</label>
-                        <select class="form-control form-select @error('question10') is-invalid @enderror" id="question10" name="question10" required>
+                        <select class="form-control form-select @error('question10') is-invalid @enderror"
+                            id="question10" name="question10" required>
                             <option></option>
                             <option></option>
                             <option>Abaixo do esperado</option>
@@ -363,7 +377,8 @@
 
 
                             Você recomendaria o site a outros docentes?</label>
-                        <select class="form-control form-select @error('question11') is-invalid @enderror" id="question11" name="question11" required>
+                        <select class="form-control form-select @error('question11') is-invalid @enderror"
+                            id="question11" name="question11" required>
                             <option></option>
                             <option></option>
                             <option>Não recomendaria</option>
@@ -383,7 +398,8 @@
 
                             Gostaria de contribuir com alguma sugestão?</label>
                         <textarea name="contribution" id="question12" cols="30" rows="10" placeholder=""
-                            class="form-control  @error('question12') is-invalid @enderror " name="question12" required></textarea>
+                            class="form-control  @error('question12') is-invalid @enderror " name="question12"
+                            required></textarea>
                     </div>
 
 

@@ -18,6 +18,7 @@ class GameController extends Controller
     }
     public function store(Request $request)
     {
+        $aluno = $request->input('aluno');
         $question1 = $request->input('alternative1');
         $question2 = $request->input('alternative2');
         $question3 = $request->input('alternative3');
@@ -26,8 +27,8 @@ class GameController extends Controller
         $question6 = $request->input('alternative6');
         $question7 = $request->input('alternative7');
         $professor = $request->input('professor');
-     
-        $maile = new GameMail($question1, $question2, $question3, $question4, $question5, $question6, $question7);
+
+        $maile = new GameMail($aluno,$question1, $question2, $question3, $question4, $question5, $question6, $question7);
 
 
         Mail::to($professor)->send($maile);
@@ -115,6 +116,6 @@ class GameController extends Controller
 
 
         //     mail($to, $subject, $mensagem, $headers);
-        return back();
+        return response()->json(["success"=>"success"]);
     }
 }

@@ -41,6 +41,10 @@
             <div class="row">
                 <form action="/game" method="post" id="formGame">
                     @csrf
+                    <div class="form-group mb-5">
+                        <label for="aluno">Digite seu nome:</label>
+                        <input type="text" name="aluno" id="aluno" class="form-control  @error('aluno') is-invalid @enderror">
+                    </div>
                     <div class="form-group mb-4">
                         <label for="professor">1. Quem e seu professor?</label>
                         <select class="form-control form-select @error('professor') is-invalid @enderror" id="professor"
@@ -97,7 +101,7 @@
                         <div class="d-flex align-items-center questionsCheck flex-wrap">
                             <div class="check">
                                 <input type="checkbox" id="myCheckbox12" name="alternative12" value="Acertou" />
-                                <label for="myCheckbox6" class="form-label">
+                                <label for="myCheckbox12" class="form-label">
                                     <img src="{{ asset('images/question2-img1.png') }}" alt=""></label>
                             </div>
 
@@ -112,8 +116,8 @@
                                         src="{{ asset('images/question2-img3.png') }}" alt=""></label>
                             </div>
                             <div class="check">
-                                <input type="checkbox" id="myCheckbox14" value="Errou" name="alternative2"/>
-                                <label for="myCheckbox14" class="form-label"><img
+                                <input type="checkbox" id="myCheckbox42" value="Errou" name="alternative2"/>
+                                <label for="myCheckbox42" class="form-label"><img
                                         src="{{ asset('images/question2-img4.png') }}" alt=""></label>
                             </div>
                             <div class="check">
