@@ -39,7 +39,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h2 class="title-main">O QUE FAZEMOS</h2>
+                    <h2 class="title-main">NOSSA PROPOSTA</h2>
                 </div>
             </div>
         </div>
@@ -62,20 +62,18 @@
                     <img src="{{ asset('images/img1.png') }}" alt="">
                 </div>
                 <div class="col-md-6 intro-mestre">
-                    <h2><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus nibh ut in et et.</b></h2>
+                    <h2><b>OS SEM-FLORESTA</b></h2>
 
-                    <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa a quis nisi est
-                        magna vel, semper. Feugiat nunc amet dolor, viverra nec purus arcu sem id.</p>
+                    <p class="sub-title">A primavera chegou, o que faz com que os animais da floresta despertem da hibernação. Ao acordar eles logo têm uma surpresa: surgiu ao redor de seu habitat natural uma grande cerca verde. Inicialmente eles temem o que há por detrás da cerca, até que RJ (Bruce Willis) revela que foi construída uma cidade ao redor da floresta em que vivem, que agora ocupa apenas um pequeno espaço. RJ diz ainda que no mundo dos humanos há as mais diversas guloseimas, convencendo os demais a atravessar a cerca. Entretanto esta atitude desagrada o cauteloso Verne (Garry Shandling), que achava melhor permanecer onde estavam inicialmente</p>
                     <div class="about-content">
                         <img src="{{ asset('images/number1.png') }}" alt="">
                         <div class="text-content">
-                            <h3 class="blue">LOREM IPSUM</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor ornare eu cursus
-                                pellentesque purus at dictumst.</p>
+
+                            <p>Essa animação, apresenta diversas possibilidades para estabelecer práticas dialógicas com os estudantes, mas a principal são os perigos em que RJ se coloca e aos amigos por querer mais do que precisa, nesse caso, pode-se traçar vários paralelos com o consumo consciente.</p>
                         </div>
 
                     </div>
-                    <div class="about-content">
+                    {{-- <div class="about-content">
                         <img src="{{ asset('images/number2.png') }}" alt="">
                         <div class="text-content">
                             <h3 class="pink">LOREM IPSUM</h3>
@@ -92,34 +90,26 @@
                                 pellentesque purus at dictumst.</p>
                         </div>
 
-                    </div>
+                    </div> --}}
                 </div>
             </div>
 
             <div class="row align-items-center mt-5">
                 <div class="col-md-6 intro-mestre">
-                    <h2><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus nibh ut in et et.</b></h2>
+                    <h2><b>O LORAX – EM BUSCA DA TRUFULA PERDIDA</b></h2>
 
-                    <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa a quis nisi est
-                        magna vel, semper. Feugiat nunc amet dolor, viverra nec purus arcu sem id.</p>
+                    <p class="sub-title">Um rapaz de 12 anos procura uma árvore que lhe permitirá ganhar a simpatia da garota dos seus sonhos. Para encontrá-la, percorre o território do Lorax, uma criatura lendária, mal-humorada e charmosa que luta para preservar o seu mundo e as criaturas que o habitam.</p>
                     <div class="about-content">
                         <img src="{{ asset('images/number1.png') }}" alt="">
                         <div class="text-content">
-                            <h3 class="blue">LOREM IPSUM</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor ornare eu cursus
-                                pellentesque purus at dictumst.</p>
+
+                            <p>
+                                Essa animação possibilita trabalhar  como os recursos naturais são explorados ao extremo e quais as consequências desse ato. Possibilita, inclusive, refletir sobre a necessidade de pensar no ser humano em todos os aspectos, considerando, até mesmo, o viés neoliberal da expropriação de bens e pessoas.
+                                </p>
                         </div>
 
                     </div>
-                    <div class="about-content">
-                        <img src="{{ asset('images/number2.png') }}" alt="">
-                        <div class="text-content">
-                            <h3 class="pink">LOREM IPSUM</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor ornare eu cursus
-                                pellentesque purus at dictumst.</p>
-                        </div>
 
-                    </div>
 
                 </div>
 
@@ -136,33 +126,45 @@
             </div>
             <div class="row align-items-center mt-5">
                 <div class="col-md-6 intro-mestre">
-                    <h2><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus nibh ut in et et.</b></h2>
+                    <h2><b>WALL-E</b></h2>
 
-                    <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa a quis nisi est
-                        magna vel, semper. Feugiat nunc amet dolor, viverra nec purus arcu sem id.</p>
+                    <p class="sub-title">Após entulhar a Terra de lixo e poluir a atmosfera com gases tóxicos, a humanidade deixou o planeta e passou a viver em uma gigantesca nave. O plano era que o retiro durasse alguns poucos anos, com robôs sendo deixados para limpar o planeta. Wall-E é o último destes robôs, que se mantém em funcionamento graças ao auto-conserto de suas peças. Sua vida consiste em compactar o lixo existente no planeta, que forma torres maiores que arranha-céus, e colecionar objetos curiosos que encontra ao realizar seu trabalho. Até que um dia surge repentinamente uma nave, que traz um novo e moderno robô: Eva. A princípio curioso, Wall-E logo se apaixona pela recém-chegada.</p>
                     <div class="about-content">
                         <img src="{{ asset('images/number1.png') }}" alt="">
                         <div class="text-content">
-                            <h3 class="blue">LOREM IPSUM</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor ornare eu cursus
-                                pellentesque purus at dictumst.</p>
+                          
+                            <p>Essa animação possibilita trabalhar as possíveis consequências do acúmulo de lixo causado pela humanidade, promovendo reflexões críticas sobre como evitar impactos negativos ao meio ambiente.</p>
                         </div>
 
                     </div>
-                    <div class="about-content">
-                        <img src="{{ asset('images/number2.png') }}" alt="">
-                        <div class="text-content">
-                            <h3 class="pink">LOREM IPSUM</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor ornare eu cursus
-                                pellentesque purus at dictumst.</p>
-                        </div>
 
-                    </div>
 
                 </div>
                 <div class="col-md-6 text-center">
                     <img src="{{ asset('images/img3.png') }}" alt="">
                 </div>
+
+            </div>
+            <div class="row align-items-center mt-5">
+                <div class="col-md-6 text-center">
+                    <img src="{{ asset('images/img3.png') }}" alt="">
+                </div>
+                <div class="col-md-6 intro-mestre">
+                    <h2><b>TURMA DA MÔNICA E UM PLANO PARA SALVAR O PLANETA</b></h2>
+
+                    <p class="sub-title">Turma da Mônica mostra como o homem está maltratando o Meio Ambiente e dá dicas de como Preservar o Planeta.</p>
+                    <div class="about-content">
+                        <img src="{{ asset('images/number1.png') }}" alt="">
+                        <div class="text-content">
+
+                            <p>Essa animação mostra a Turma da Mônica falando sobre vários problemas relacionados ao Meio Ambiente. Apresentando a classificação dos Rs (Reduzir, Reutilizar e Reciclar). Pode-se trabalhar com esses curtas diversas questões relacionadas a temática, enfatizando o “reduzir” como a principal ação para diminuir a degradação do ecossistema e sem dúvidas o principal dos Rs.</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
 
             </div>
         </div>
@@ -172,8 +174,7 @@
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-6 item-game">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas pretium, cursus sed lorem
-                        porta.</h4>
+                    <h4>Venha jogar e aprender sobre a consciência ambiental</h4>
                 </div>
                 <div class="col-md-6 item-game ">
                     <a href="/game" target="_blank" rel="noopener noreferrer">

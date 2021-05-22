@@ -29,7 +29,7 @@
             <div class="row justify-content-center  intro-text">
                 <div class="col-md-12 text-center ">
                     <h1>O JOGO</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum integer pulvinar in.</p>
+                    <p>Vamos aprender como nossas ações impactam o mundo.</p>
                 </div>
             </div>
         </div>

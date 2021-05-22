@@ -24,5 +24,10 @@ Route::post('/game', [GameController::class,'store']);
 Route::post('/ajax/request', [MainController::class,'store'])->name('ajax.request');
 Route::post('/ajax/professor', [ProfessorController::class,'store'])->name('ajax.professor');
 
-Route::get('/admin', [AdminController::class,'index']);
 
+Route::group(['middleware'=>['auth']],function(){
+    Route::get('/admin', [AdminController::class,'index']);
+});
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
