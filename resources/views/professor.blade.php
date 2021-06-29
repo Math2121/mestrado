@@ -29,23 +29,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 form-professor">
-                    <form action="" method="post" id="professorForm">
+                    <form action="/professor" method="post" id="professorForm">
                         <h2 class="text-center"><b>Cadastre-se</b></h2>
                         @csrf
                     <div class=" mb-4 mt-4">
                         <label for="professor" class="form-label">Nome</label>
-                        <input type="text" class="form-control" placeholder="professor" id="professor" name="professor"
+                        <input type="text" class="form-control" placeholder="John Doe" id="professor" name="professor"
                        >
                     </div>
 
                     <div class=" mb-4">
                         <label for="escola" class="form-label">Escola</label>
-                        <input type="text" class="form-control" placeholder="Amigos da Luz" name="escola" id="escola">
+                        <input type="text" class="form-control" placeholder="Nome da instituição" name="escola" id="escola">
                     </div>
 
                     <div class=" mb-4">
 <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" placeholder="exampl@gmail.com" name="email" id="email">
+                        <input type="email" class="form-control" placeholder="Ex: johndoe@gmail.com" name="email" id="email">
                     </div>
                     <button type="submit" class="btn-professor">Enviar</button>
                 </form>
@@ -65,6 +65,7 @@
         integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
     </script>
     <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
+    
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="{{ asset('js/main.js') }}"></script>
 </body>

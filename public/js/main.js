@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('#hiddeInput').hide();
     $('#question3').change(() => {
-        if ($('#question3').val() == 'qual') {
+        if ($('#question3').val() === 'qual') {
             $('#hiddeInput').show();
         } else {
             $('#hiddeInput').hide();
@@ -230,7 +230,7 @@ $(document).ready(function () {
 
         var _token = $("input[name='_token']").val();
         let professor = $("#professor").val();
-        let escola = $("#c").val();
+        let escola = $("#escola").val();
         let email = $("#email").val();
 
         $.ajax({
@@ -241,17 +241,14 @@ $(document).ready(function () {
                 professor: professor,
                 escola: escola,
                 email: email,
-
-
-
             },
             success: function (data) {
-                professor = $("#professor").val('');
-                escola = $("#escola").val('');
-                email = $("#email").val('');
+               $("#professor").val('');
+              $("#escola").val('');
+           $("#email").val('');
 
 
-                if (data.success == "success") {
+                if (data.success === "success") {
                     Swal.fire({
                         icon: 'success',
                         title: '',
@@ -259,7 +256,7 @@ $(document).ready(function () {
 
                     })
                 } else {
-
+                    console.log(data)
                     Swal.fire({
                         icon: 'error',
                         title: 'Oops...',

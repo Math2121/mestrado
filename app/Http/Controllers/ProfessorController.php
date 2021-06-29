@@ -39,12 +39,15 @@ class ProfessorController extends Controller
     public function store(Request $request)
     {
         //
+
+ 
         $validator = Validator::make($request->all(), [
             'professor' => 'required',
             'escola' => 'required',
             'email' => 'required',
 
         ]);
+        
         if($validator->fails()){
             return response()->json(["error" =>$request->all()]);
         }else{
