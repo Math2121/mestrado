@@ -22,6 +22,12 @@ class MainController extends Controller
         return view('index');
     }
 
+    public function filme()
+    {
+        //
+        return view('filmes');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

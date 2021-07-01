@@ -27,15 +27,21 @@
   z-index: 9999;
 }
 
+.intro-mestre ul li {
+  font-family: "Nunito",sans-serif;
+  font-size: 16px;
+}
+
 .intro-text .title-main {
   position: relative;
+  margin-top: 5rem;
 }
 
 .intro-text .title-main::after {
   position: absolute;
-  content: '';
+  content: "";
   background: #8BD3F0;
-  width: 16rem;
+  width: 12rem;
   opacity: 0.5;
   height: 1rem;
   bottom: 0;
@@ -51,13 +57,63 @@
   }
 }
 
+.intro-text .title-main2 {
+  position: relative;
+  margin-top: 5rem;
+}
+
+.intro-text .title-main2::after {
+  position: absolute;
+  content: "";
+  background: #8BD3F0;
+  width: 20rem;
+  opacity: 0.5;
+  height: 1rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 9999;
+}
+
+@media screen and (max-width: 425px) {
+  .intro-text .title-main2::after {
+    width: 13rem;
+  }
+}
+
+.intro-text .title-main3 {
+  position: relative;
+  margin-top: 5rem;
+}
+
+.intro-text .title-main3::after {
+  position: absolute;
+  content: "";
+  background: #8BD3F0;
+  width: 9rem;
+  opacity: 0.5;
+  height: 1rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 9999;
+}
+
+@media screen and (max-width: 425px) {
+  .intro-text .title-main3::after {
+    width: 13rem;
+  }
+}
+
 h2 {
   font-family: Nunito;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 33px;
-  color: #033B52;
+  color: #033b52;
 }
 
 .sub-title {
@@ -77,7 +133,7 @@ h2 {
   font-size: 20px;
   line-height: 27px;
   margin-bottom: 0;
-  color: #67C4E9;
+  color: #67c4e9;
 }
 
 .pink {
@@ -87,7 +143,7 @@ h2 {
   font-size: 20px;
   line-height: 27px;
   margin-bottom: 0;
-  color: #DC88A0;
+  color: #dc88a0;
 }
 
 .yellow {
@@ -97,7 +153,7 @@ h2 {
   font-size: 20px;
   line-height: 27px;
   margin-bottom: 0;
-  color: #DFAD54;
+  color: #dfad54;
 }
 
 .about-content {
@@ -161,11 +217,11 @@ h2 {
   font-weight: bold;
   font-size: 24px;
   line-height: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .game .item-game button {
-  background: #FDC563;
+  background: #fdc563;
   border-radius: 50px;
   font-family: Nunito;
   font-style: normal;
@@ -175,10 +231,10 @@ h2 {
   border: 0;
   width: 15rem;
   height: 3.5rem;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   float: right;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 425px) {
@@ -206,7 +262,7 @@ h2 {
 
 .intro-text2 .title-main::after {
   position: absolute;
-  content: '';
+  content: "";
   background: #FFD17F;
   width: 12rem;
   opacity: 0.5;
@@ -239,12 +295,12 @@ label {
   font-size: 16px;
   line-height: 22px;
   /* identical to box height */
-  color: #A4A1A1;
+  color: #a4a1a1;
 }
 
 .btn-sub,
 .btn-sub2 {
-  background: #45B3DF;
+  background: #45b3df;
   border-radius: 50px;
   border: 0;
   width: 100%;
@@ -265,6 +321,40 @@ label {
   margin: 0 auto;
   display: block;
   text-align: center;
+}
+
+.btn-sub3 {
+  background: #45b3df;
+  border-radius: 100px;
+  border: 0;
+  width: 16rem;
+  display: block;
+  font-size: 16px;
+  height: 2.5rem;
+  margin: 3rem auto;
+}
+
+.btn-sub3 .ponto {
+  border: 2px dashed white;
+  width: 15rem;
+  height: 2rem;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding: 0.3rem;
+}
+
+.btn-sub3 a {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.btn-sub3 a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .pic1 img {
@@ -309,7 +399,8 @@ label {
 }
 
 select,
-textarea, input {
+textarea,
+input {
   border: 0 !important;
   background: white;
   -webkit-box-shadow: 0px 13px 80px rgba(0, 0, 0, 0.03), 0px 4.74521px 29.2013px rgba(0, 0, 0, 0.0206994), 0px 2.30371px 14.1767px rgba(0, 0, 0, 0.0166887), 0px 1.12932px 6.94968px rgba(0, 0, 0, 0.0133113), 0px 0.44654px 2.74791px rgba(0, 0, 0, 0.00930055) !important;
@@ -323,15 +414,15 @@ textarea, input {
 
 .form-professor button {
   padding: 19px 39px 18px 39px;
-  color: #FFF;
-  background-color: #67C4E9;
+  color: #fff;
+  background-color: #67c4e9;
   font-size: 18px;
   text-align: center;
   font-style: normal;
   border-radius: 5px;
   width: 100%;
   font-weight: bolder;
-  border: 1px solid #67C4E9;
+  border: 1px solid #67c4e9;
   border-width: 1px 1px 3px;
   -webkit-box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
           box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
@@ -373,7 +464,7 @@ textarea, input {
   font-weight: bolder;
   font-size: 18px;
   line-height: 27px;
-  color: #033B52;
+  color: #033b52;
 }
 
 #formGame input[type="checkbox"] {
@@ -395,7 +486,7 @@ textarea, input {
   content: " ";
   display: block;
   border-radius: 50%;
-  border: 1px solid #67C4E9;
+  border: 1px solid #67c4e9;
   position: absolute;
   top: -5px;
   left: -5px;
@@ -419,12 +510,12 @@ textarea, input {
 }
 
 #formGame .questionsCheck :checked + label {
-  border-color: #67C4E9;
+  border-color: #67c4e9;
 }
 
 #formGame .questionsCheck :checked + label:before {
   content: "✓";
-  background-color: #67C4E9;
+  background-color: #67c4e9;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
@@ -441,7 +532,7 @@ textarea, input {
 
 #formGame .questionsCheck :checked + label:before {
   content: "✓";
-  background-color: #67C4E9;
+  background-color: #67c4e9;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
@@ -490,5 +581,41 @@ p {
 a {
   text-decoration: none;
   color: black;
+}
+
+.menu .collapse {
+  border-radius: 100px;
+  max-width: 520px;
+  margin: 0 auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #8BD3F0;
+}
+
+.menu ul {
+  padding: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 100px;
+  border: 5px dashed #fff;
+}
+
+.menu ul li {
+  margin-right: 1rem;
+}
+
+.menu ul li a {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 33px;
+  color: #fff;
+}
+
+.main-text p {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  line-height: 33px;
 }
 /*# sourceMappingURL=style.css.map */

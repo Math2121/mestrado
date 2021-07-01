@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [MainController::class,'index']);
 Route::get('/professor', [ProfessorController::class,'index']);
+Route::get('/filmes', [MainController::class,'filme']);
 Route::get('/game', [GameController::class,'index']);
 Route::post('/game', [GameController::class,'store']);
 Route::post('/ajax/request', [MainController::class,'store'])->name('ajax.request');

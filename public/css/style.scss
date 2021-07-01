@@ -6,10 +6,8 @@
     box-sizing: border-box;
 }
 
-@import 'partials/colors';
-@import 'partials/layout';
-
-
+@import "partials/colors";
+@import "partials/layout";
 
 html {
     scroll-behavior: smooth;
@@ -20,7 +18,6 @@ body {
     height: 100vh;
     position: relative;
     scroll-behavior: smooth;
-
 }
 
 svg,
@@ -30,7 +27,7 @@ img {
 }
 
 .border {
-    border: 1px solid red
+    border: 1px solid red;
 }
 
 p {
@@ -53,4 +50,40 @@ a {
     color: black;
 }
 
-@import 'partials/animation';
+.menu {
+    .collapse {
+        border-radius: 100px;
+        max-width: 520px;
+        margin: 0 auto;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        background-color: $blue-light;
+    }
+    ul {
+        padding: 0.25rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 100px;
+        border: 5px dashed #fff;
+        li {
+            margin-right: 1rem;
+            a {
+                font-family: "Nunito", sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 33px;
+
+                color: #fff;
+            }
+        }
+    }
+}
+.main-text {
+    p {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        line-height: 33px;
+    }
+}
+@import "partials/animation";

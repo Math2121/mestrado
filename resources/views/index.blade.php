@@ -22,14 +22,95 @@
 </head>
 
 <body>
-    <section class="background">
+    <section class="menu">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mx-auto mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/">Proposta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/filmes">Filmes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/game">Jogo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/professor">Professor</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section class="intro-text">
         <div class="container">
             <div class="row">
-                <div class="col-md-12  round-blue ">
-                    <a href="/professor" target="_blank" rel="noopener noreferrer">
-                        <i class="las la-user-tie" data-bs-toggle="tooltip" data-bs-placement="top"
-                            title="Cadastre-se professor"></i>
-                    </a>
+                <div class="col-md-12 text-center">
+                    <h2 class="title-main3"> PROPOSTA</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Zabala (1998) afirma que sequência didática é uma série ordenada e articulada de atividades e
+                        materiais organizados para mediação de aprendizagem de determinado conteúdo. Desse modo, apoiado
+                        nos objetivos traçados, o professor organiza sistematicamente atividades que possibilitarão a
+                        aprendizagem discente. O autor reforça que a dinâmica de articulação entre as atividades irá
+                        direcionar a aprendizagem para uma determinada especificidade da unidade didática que se está
+                        explorando. <br>
+                        A organização de uma sequência didática pressupõe uma lógica de planejamento docente consciente
+                        e sistemática que precisa considerar as experiências sociais discentes (LIBÂNEO, 2013).
+                        Apoiadas em Zabala (1998) que recomenda que ao planejar uma sequência didática um professor
+                        reflita sobre diferentes aspectos que irão fazê-lo avaliar a qualidade das atividades propostas,
+                        propõe, portanto, alguns tópicos de reflexão, que possibilitarão que o docente exerça, o que é
+                        denominado por Oliveira e Oliveira (2020, p. 158), como a “arte de autoquestionamento”.
+                    </p>
+                    <ul>
+                        <li> O que ensinar? Para quem ensinar?
+
+                        </li>
+                        <li>Quais os conhecimentos prévios? Quais competências e habilidades desenvolver? Que desafios
+                            são propostos para alcançar novos conhecimentos? </li>
+                        <li>Que atitudes são promovidas pela sequência didática em relação à sua interação consigo
+                            mesmo, no que tange a construção de autoconceito, autoestima e autonomia em relação à
+                            própria aprendizagem? Que atitudes são promovidas em relação a interação com o outro? </li>
+                        <li>Quantas aulas serão necessárias para integralizar a sequência didática planejada?</li>
+                        <li>A sequência didática está adequada aos interesses e necessidades do estudante que está na
+                            etapa de escolaridade da educação básica para a qual está sendo direcionada?</li>
+                    </ul>
+
+                    <p>
+                        Nesse sentido, a sequência didática foi construída de modo a contemplar as seguintes etapas
+                        referentes às unidades didáticas:<br>
+                        1ª Unidade Didática: Comunicação e diagnóstico
+                        Iniciar por uma atividade de sondagem, que permita identificar os conhecimentos prévios dos
+                        estudantes em relação ao objeto de conhecimento que será abordado.<br>
+                        2ª Unidade Didática: Discussão conceitual
+                        Abordar conceitos-chave articulados aos conhecimentos prévios dos estudantes que permita a
+                        tradução de conceitos instituídos, bem como a institucionalização compartilhada de novos
+                        conceitos. <br>
+                        3ª Unidade Didática: Apropriação
+                        Nessa fase o estudante será provocado para empreender uma dinâmica cognitiva de levar para si,
+                        de se implicar com os conceitos-chave discutidos. A utilização de recursos como textos, imagens,
+                        filmes, jogos, dentre outros, possibilita a introjeção dos objetos de conhecimento e
+                        modificações no processo de apreender.<br>
+                        4ª Unidade Didática: Aplicação
+                        Etapa final do processo e, simultaneamente, na qual serão propostas atividades que instiguem os
+                        estudantes a aplicar, de maneira significativa, um determinado conteúdo;
+
+                    </p>
                 </div>
             </div>
         </div>
@@ -39,157 +120,84 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h2 class="title-main">NOSSA PROPOSTA</h2>
+                    <h2 class="title-main"> SEQUÊNCIAS</h2>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="mt-5" style="position:relative">
-        <div class="pic1">
-            <img src="{{ asset('images/bob1.png') }}" alt="" class="">
-        </div>
-
-        <div class="pic2">
-            <img src="{{ asset('images/sun.png') }}" alt="" class="">
-        </div>
-        <div class="pic5">
-            <img src="{{ asset('images/bob2.png') }}" alt="" class="">
-        </div>
-        <div class="container" style="position:relative">
-            <div class="row align-items-center">
-                <div class="col-md-6 text-center">
-                    <img src="{{ asset('images/img1.png') }}" alt="">
-                </div>
-                <div class="col-md-6 intro-mestre">
-                    <h2><b>OS SEM-FLORESTA</b></h2>
-
-                    <p class="sub-title">A primavera chegou, o que faz com que os animais da floresta despertem da hibernação. Ao acordar eles logo têm uma surpresa: surgiu ao redor de seu habitat natural uma grande cerca verde. Inicialmente eles temem o que há por detrás da cerca, até que RJ (Bruce Willis) revela que foi construída uma cidade ao redor da floresta em que vivem, que agora ocupa apenas um pequeno espaço. RJ diz ainda que no mundo dos humanos há as mais diversas guloseimas, convencendo os demais a atravessar a cerca. Entretanto esta atitude desagrada o cauteloso Verne (Garry Shandling), que achava melhor permanecer onde estavam inicialmente</p>
-                    <div class="about-content">
-                        <img src="{{ asset('images/number1.png') }}" alt="">
-                        <div class="text-content">
-
-                            <p>Essa animação, apresenta diversas possibilidades para estabelecer práticas dialógicas com os estudantes, mas a principal são os perigos em que RJ se coloca e aos amigos por querer mais do que precisa, nesse caso, pode-se traçar vários paralelos com o consumo consciente.</p>
-                        </div>
-
-                    </div>
-                    {{-- <div class="about-content">
-                        <img src="{{ asset('images/number2.png') }}" alt="">
-                        <div class="text-content">
-                            <h3 class="pink">LOREM IPSUM</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor ornare eu cursus
-                                pellentesque purus at dictumst.</p>
-                        </div>
-
-                    </div>
-                    <div class="about-content">
-                        <img src="{{ asset('images/number3.png') }}" alt="">
-                        <div class="text-content">
-                            <h3 class="yellow">LOREM IPSUM</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor ornare eu cursus
-                                pellentesque purus at dictumst.</p>
-                        </div>
-
-                    </div> --}}
-                </div>
-            </div>
-
-            <div class="row align-items-center mt-5">
-                <div class="col-md-6 intro-mestre">
-                    <h2><b>O LORAX – EM BUSCA DA TRUFULA PERDIDA</b></h2>
-
-                    <p class="sub-title">Um rapaz de 12 anos procura uma árvore que lhe permitirá ganhar a simpatia da garota dos seus sonhos. Para encontrá-la, percorre o território do Lorax, uma criatura lendária, mal-humorada e charmosa que luta para preservar o seu mundo e as criaturas que o habitam.</p>
-                    <div class="about-content">
-                        <img src="{{ asset('images/number1.png') }}" alt="">
-                        <div class="text-content">
-
-                            <p>
-                                Essa animação possibilita trabalhar  como os recursos naturais são explorados ao extremo e quais as consequências desse ato. Possibilita, inclusive, refletir sobre a necessidade de pensar no ser humano em todos os aspectos, considerando, até mesmo, o viés neoliberal da expropriação de bens e pessoas.
-                                </p>
-                        </div>
-
-                    </div>
 
 
-                </div>
-
-                <div class="col-md-6 text-center">
-                    <div class="pic4">
-                        <img src="{{ asset('images/rocket.png') }}" alt="" class="">
-                    </div>
-                    <img src="{{ asset('images/img2.png') }}" alt="">
-                </div>
-
-            </div>
-            <div class="pic3">
-                <img src="{{ asset('images/heart.png') }}" alt="" class="">
-            </div>
-            <div class="row align-items-center mt-5">
-                <div class="col-md-6 intro-mestre">
-                    <h2><b>WALL-E</b></h2>
-
-                    <p class="sub-title">Após entulhar a Terra de lixo e poluir a atmosfera com gases tóxicos, a humanidade deixou o planeta e passou a viver em uma gigantesca nave. O plano era que o retiro durasse alguns poucos anos, com robôs sendo deixados para limpar o planeta. Wall-E é o último destes robôs, que se mantém em funcionamento graças ao auto-conserto de suas peças. Sua vida consiste em compactar o lixo existente no planeta, que forma torres maiores que arranha-céus, e colecionar objetos curiosos que encontra ao realizar seu trabalho. Até que um dia surge repentinamente uma nave, que traz um novo e moderno robô: Eva. A princípio curioso, Wall-E logo se apaixona pela recém-chegada.</p>
-                    <div class="about-content">
-                        <img src="{{ asset('images/number1.png') }}" alt="">
-                        <div class="text-content">
-                          
-                            <p>Essa animação possibilita trabalhar as possíveis consequências do acúmulo de lixo causado pela humanidade, promovendo reflexões críticas sobre como evitar impactos negativos ao meio ambiente.</p>
-                        </div>
-
-                    </div>
-
-
-                </div>
-                <div class="col-md-6 text-center">
-                    <img src="{{ asset('images/img3.png') }}" alt="">
-                </div>
-
-            </div>
-            <div class="row align-items-center mt-5">
-                <div class="col-md-6 text-center">
-                    <img src="{{ asset('images/img3.png') }}" alt="">
-                </div>
-                <div class="col-md-6 intro-mestre">
-                    <h2><b>TURMA DA MÔNICA E UM PLANO PARA SALVAR O PLANETA</b></h2>
-
-                    <p class="sub-title">Turma da Mônica mostra como o homem está maltratando o Meio Ambiente e dá dicas de como Preservar o Planeta.</p>
-                    <div class="about-content">
-                        <img src="{{ asset('images/number1.png') }}" alt="">
-                        <div class="text-content">
-
-                            <p>Essa animação mostra a Turma da Mônica falando sobre vários problemas relacionados ao Meio Ambiente. Apresentando a classificação dos Rs (Reduzir, Reutilizar e Reciclar). Pode-se trabalhar com esses curtas diversas questões relacionadas a temática, enfatizando o “reduzir” como a principal ação para diminuir a degradação do ecossistema e sem dúvidas o principal dos Rs.</p>
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-    <section class="mt-5 game">
+    <section class="main-text mt-5">
         <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-md-6 item-game">
-                    <h4>Venha jogar e aprender sobre a consciência ambiental</h4>
-                </div>
-                <div class="col-md-6 item-game ">
-                    <a href="/game" target="_blank" rel="noopener noreferrer">
-                    <button>
-                        <span class="ponto">
-                            JOGUE
-                        </span>
-                    </button>
-                </a>
-                </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        1ª Unidade Didática: Comunicação e diagnóstico<br>
+                        <b>Atividade nº 1 </b> – Roda de conversas com as crianças para apresentação do tema. O
+                        professor deverá
+                        apresentar problematizar uma situação que envolva a temática sobre consumo, para diagnosticar os
+                        saberes que os estudantes possuem acerca do assunto em pauta.<br>
 
+                        <b>2ª Unidade Didática: </b> Discussão conceitual
+                        Atividade nº 2 – Serão levantadas questões que abordem diretamente os conceitos-chave: consumo,
+                        sustentabilidade, educação ambiental.
+                        Explorar a temática acerca do assunto:<br>
+                    <ul>
+                        <li>quando compramos/consumimos algo, esta ação interfere no meio ambiente?</li>
+                        <li>a maior parte da poluição está ligada às indústrias. </li>
+                        <li>quanto mais compramos, mais é produzido e, consequentemente, quanto mais é produzido, mais o
+                            meio ambiente é degradado, prejudicado</li>
+                        <li>
+                            Vocês acham que compramos/consumimos apenas o que é necessário ou queremos sempre mais?
+                        </li>
+                    </ul>
+
+
+                    <b>Atividade nº 3</b> – Discutir o ciclo de vida e os impactos ambientais
+                    </p>
+                </div>
             </div>
         </div>
     </section>
+    <section class="intro-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="title-main2"> ESCOLHA DE FILMES</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-text mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        <b> 3ª Unidade Didática: Apropriação</b> <br>
 
+                        Atividade nº 4 – Após a primeira Roda de conversas, abordar sobre o Filme “OS SEM-FLORESTA”.
+                        Conforme resultado da sensibilização realizada acerca do <br>filme, o professor poderá usar
+                        propostas tais como: <br>
+                        a) Passar o filme completo na escola ou partes mais significantes que façam sentido; <br>
+                        b) Solicitar que vejam o filme com a família e registre em forma de texto ou desenhos as cenas
+                        que estão articuladas a consumo.<br><br><br>
+
+                        Atividade nº 5 –Questões de orientação aos professores para a roda de conversa após os
+                        estudantes assistirem ao filme:
+
+                    </p>
+                    <button class=" btn-sub3">
+                        <a href="/filmes">
+                            <span class="ponto">
+                                FILMES
+                            </span>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="avaliate mt-5">
         <section class="intro-text2">
             <div class="container">
@@ -413,15 +421,6 @@
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
 
     <footer class="mt-5">
         <img src="{{ asset('images/footer.png') }}" alt="">
