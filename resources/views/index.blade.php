@@ -24,32 +24,52 @@
 <body>
     <section class="menu">
         <div class="container">
-            <nav class="navbar navbar-expand-lg ">
+            <nav class="navbar navbar-expand-lg d-block mx-auto">
                 <div class="container-fluid">
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mx-auto mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/">Proposta</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/filmes">Filmes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/game">Jogo</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/professor">Professor</a>
-                            </li>
-
-                        </ul>
-
+                    <div class="bar ">
+                        <button class="navbar-toggler" >
+                            <i class="las la-bars"></i>
+                        </button>
                     </div>
                 </div>
-            </nav>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mx-auto mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="/">Proposta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="/filmes">Filmes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="/game">Jogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="/professor">Professor</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+        </div>
+        </nav>
         </div>
     </section>
-
+    <div class="menu-mobile">
+        <ul class="mobile navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/">Proposta</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/filmes">Filmes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/game">Jogo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/professor">Professor</a>
+            </li>
+        </ul>
+    </div>
     <section class="intro-text">
         <div class="container">
             <div class="row">
@@ -434,7 +454,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
         integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
     </script>
-    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
+    <script src="https://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="{{ asset('js/main.js') }}"></script>
 </body>

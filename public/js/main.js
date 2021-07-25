@@ -269,6 +269,16 @@ $(document).ready(function () {
         });
     })
 })
+
+$(document).ready(() => {
+    $('.navbar-toggler').click(() => {
+
+      $('.menu-mobile').toggleClass('active')
+    })
+
+})
+
+
 // let questionInput1 = document.getElementById("question1").value
 
 // function question1(){

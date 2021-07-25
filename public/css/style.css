@@ -618,4 +618,56 @@ a {
   font-size: 18px;
   line-height: 33px;
 }
+
+.bar {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) and (min-width: 425px) {
+  .navbar-toggler {
+    background-color: #8bd3f0 !important;
+    color: white;
+    float: right;
+  }
+}
+
+.menu-mobile {
+  height: 100vh;
+  width: 80%;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  z-index: 99999999999999;
+  background-color: #8bd3f0;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  opacity: 0.9;
+  gap: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu-mobile.active {
+  left: 0;
+}
+
+.menu-mobile .mobile {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.menu-mobile .mobile li a {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 33px;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

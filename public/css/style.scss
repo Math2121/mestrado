@@ -86,4 +86,49 @@ a {
         line-height: 33px;
     }
 }
+.bar {
+    width: 100%;
+    margin: 0 auto;
+}
+.navbar-toggler {
+    @include responsive(s) {
+        background-color: #8bd3f0 !important;
+        color: white;
+        float: right;
+    }
+}
+.menu-mobile {
+    height: 100vh;
+    width: 80%;
+    transition: 0.5s ease;
+    z-index: 99999999999999;
+    background-color: #8bd3f0 ;
+    position: fixed;
+    top: 0;
+  
+    left: -100%;
+    opacity: 0.9;
+    gap: 2rem;
+    justify-content: center;
+    flex-direction: column;
+    &.active{
+        left:0;
+    }
+    .mobile{
+        padding-left: 1rem;
+        padding-top: 1rem;
+        li {
+        
+            a {
+                font-family: "Nunito", sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 33px;
+
+                color: #fff;
+            }
+        }
+    }
+}
 @import "partials/animation";
