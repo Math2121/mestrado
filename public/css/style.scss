@@ -96,6 +96,11 @@ a {
         color: white;
         float: right;
     }
+    @include responsive(xs) {
+        background-color: #8bd3f0 !important;
+        color: white;
+        float: right;
+    }
 }
 .menu-mobile {
     height: 100vh;
